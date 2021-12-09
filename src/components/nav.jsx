@@ -7,10 +7,10 @@ const Nav = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-default w-30">
         <div className="container-fluid">
-          <NavLink class="navbar-brand justify-center" to = "/home">
+          <NavLink class="navbar-brand justify-center " to = "/home">
             <img src={logo} alt="" width="40" />        
           </NavLink>
-          <b class="navbar-brand fs-3" >NGO_PORTAL</b>
+          <b class="navbar-brand fs-3" >NGO PORTAL</b>
           <button
             className="navbar-toggler"
             type="button"
